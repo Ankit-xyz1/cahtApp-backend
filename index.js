@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
     credentials:true,
-    origin:"https://chat-app-red-rho.vercel.app/login",
+    origin:"https://chat-app-red-rho.vercel.app",
 }))
 
 const __dirname = path.resolve();
